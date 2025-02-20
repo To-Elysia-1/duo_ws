@@ -1,0 +1,21 @@
+{
+  "package_name": "auto_aim_interfaces",
+  "output_dir": "/home/ely/duo_ros_ws/build/auto_aim_interfaces/rosidl_generator_type_description/auto_aim_interfaces",
+  "idl_tuples": [
+    "/home/ely/duo_ros_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Armor.idl",
+    "/home/ely/duo_ros_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Armors.idl",
+    "/home/ely/duo_ros_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Target.idl",
+    "/home/ely/duo_ros_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Send.idl",
+    "/home/ely/duo_ros_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugLight.idl",
+    "/home/ely/duo_ros_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugLights.idl",
+    "/home/ely/duo_ros_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugArmor.idl",
+    "/home/ely/duo_ros_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/DebugArmors.idl",
+    "/home/ely/duo_ros_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/TrackerInfo.idl",
+    "/home/ely/duo_ros_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces:msg/Velocity.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs"
+  ]
+}

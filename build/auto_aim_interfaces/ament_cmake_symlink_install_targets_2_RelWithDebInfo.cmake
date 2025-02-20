@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ely/duo_ros_ws/build/auto_aim_interfaces/rosidl_generator_py/auto_aim_interfaces/auto_aim_interfaces_s__rosidl_typesupport_c.so" "TARGETS" "auto_aim_interfaces_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/auto_aim_interfaces")

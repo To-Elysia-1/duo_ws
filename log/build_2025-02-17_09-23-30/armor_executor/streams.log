@@ -1,0 +1,75 @@
+[0.014s] Invoking command in '/home/ely/duo_ros_ws/build/armor_executor': CMAKE_PREFIX_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces:/home/ely/duo_ros_ws/install/rm_vision_bringup:/home/ely/duo_ros_ws/install/rm_serial_driver:/home/ely/duo_ros_ws/install/rm_gimbal_description:/home/ely/duo_ros_ws/install/hik_camera:/home/ely/duo_ros_ws/install/armor_tracker:/home/ely/duo_ros_ws/install/armor_executor:/home/ely/duo_ros_ws/install/armor_detector:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces/lib:/home/ely/duo_ros_ws/install/rm_serial_driver/lib:/home/ely/duo_ros_ws/install/hik_camera/lib:/home/ely/duo_ros_ws/install/armor_tracker/lib:/home/ely/duo_ros_ws/install/armor_executor/lib:/home/ely/duo_ros_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /home/ely/duo_ros_ws/src/rm_auto_aim/armor_executor -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ely/duo_ros_ws/install/armor_executor
+[0.082s] -- The C compiler identification is GNU 13.3.0
+[0.152s] -- The CXX compiler identification is GNU 13.3.0
+[0.174s] -- Detecting C compiler ABI info
+[0.269s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.286s] -- Detecting CXX compiler ABI info
+[0.379s] -- Detecting CXX compiler ABI info - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.392s] -- Detecting CXX compile features
+[0.393s] -- Detecting CXX compile features - done
+[0.396s] -- Found ament_cmake_auto: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.555s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.639s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.805s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.817s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.838s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.859s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.921s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.925s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.000s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.029s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.060s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.402s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.404s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.404s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.565s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.590s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.590s] -- Configured cppcheck include dirs: /home/ely/duo_ros_ws/src/rm_auto_aim/armor_executor/include
+[1.590s] -- Configured cppcheck exclude dirs and/or files: 
+[1.590s] -- Added test 'lint_cmake' to check CMake code style
+[1.591s] -- Added test 'xmllint' to check XML markup files
+[1.592s] -- Added test 'clang_format' to check C / C++ code style
+[1.596s] -- Configuring done (1.6s)
+[1.616s] -- Generating done (0.0s)
+[1.623s] -- Build files have been written to: /home/ely/duo_ros_ws/build/armor_executor
+[1.642s] Invoked command in '/home/ely/duo_ros_ws/build/armor_executor' returned '0': CMAKE_PREFIX_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces:/home/ely/duo_ros_ws/install/rm_vision_bringup:/home/ely/duo_ros_ws/install/rm_serial_driver:/home/ely/duo_ros_ws/install/rm_gimbal_description:/home/ely/duo_ros_ws/install/hik_camera:/home/ely/duo_ros_ws/install/armor_tracker:/home/ely/duo_ros_ws/install/armor_executor:/home/ely/duo_ros_ws/install/armor_detector:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces/lib:/home/ely/duo_ros_ws/install/rm_serial_driver/lib:/home/ely/duo_ros_ws/install/hik_camera/lib:/home/ely/duo_ros_ws/install/armor_tracker/lib:/home/ely/duo_ros_ws/install/armor_executor/lib:/home/ely/duo_ros_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /home/ely/duo_ros_ws/src/rm_auto_aim/armor_executor -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ely/duo_ros_ws/install/armor_executor
+[1.643s] Invoking command in '/home/ely/duo_ros_ws/build/armor_executor': CMAKE_PREFIX_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces:/home/ely/duo_ros_ws/install/rm_vision_bringup:/home/ely/duo_ros_ws/install/rm_serial_driver:/home/ely/duo_ros_ws/install/rm_gimbal_description:/home/ely/duo_ros_ws/install/hik_camera:/home/ely/duo_ros_ws/install/armor_tracker:/home/ely/duo_ros_ws/install/armor_executor:/home/ely/duo_ros_ws/install/armor_detector:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces/lib:/home/ely/duo_ros_ws/install/rm_serial_driver/lib:/home/ely/duo_ros_ws/install/hik_camera/lib:/home/ely/duo_ros_ws/install/armor_tracker/lib:/home/ely/duo_ros_ws/install/armor_executor/lib:/home/ely/duo_ros_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/ely/duo_ros_ws/build/armor_executor -- -j12 -l12
+[1.701s] [ 25%] [32mBuilding CXX object CMakeFiles/armor_executor_node.dir/rclcpp_components/node_main_armor_executor_node.cpp.o[0m
+[1.704s] [ 50%] [32mBuilding CXX object CMakeFiles/armor_executor.dir/src/SolveTrajectory.cpp.o[0m
+[3.041s] [ 75%] [32m[1mLinking CXX shared library libarmor_executor.so[0m
+[3.851s] [ 75%] Built target armor_executor
+[8.464s] [100%] [32m[1mLinking CXX executable armor_executor_node[0m
+[8.673s] [100%] Built target armor_executor_node
+[8.689s] Invoked command in '/home/ely/duo_ros_ws/build/armor_executor' returned '0': CMAKE_PREFIX_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces:/home/ely/duo_ros_ws/install/rm_vision_bringup:/home/ely/duo_ros_ws/install/rm_serial_driver:/home/ely/duo_ros_ws/install/rm_gimbal_description:/home/ely/duo_ros_ws/install/hik_camera:/home/ely/duo_ros_ws/install/armor_tracker:/home/ely/duo_ros_ws/install/armor_executor:/home/ely/duo_ros_ws/install/armor_detector:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces/lib:/home/ely/duo_ros_ws/install/rm_serial_driver/lib:/home/ely/duo_ros_ws/install/hik_camera/lib:/home/ely/duo_ros_ws/install/armor_tracker/lib:/home/ely/duo_ros_ws/install/armor_executor/lib:/home/ely/duo_ros_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/ely/duo_ros_ws/build/armor_executor -- -j12 -l12
+[8.691s] Invoking command in '/home/ely/duo_ros_ws/build/armor_executor': CMAKE_PREFIX_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces:/home/ely/duo_ros_ws/install/rm_vision_bringup:/home/ely/duo_ros_ws/install/rm_serial_driver:/home/ely/duo_ros_ws/install/rm_gimbal_description:/home/ely/duo_ros_ws/install/hik_camera:/home/ely/duo_ros_ws/install/armor_tracker:/home/ely/duo_ros_ws/install/armor_executor:/home/ely/duo_ros_ws/install/armor_detector:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces/lib:/home/ely/duo_ros_ws/install/rm_serial_driver/lib:/home/ely/duo_ros_ws/install/hik_camera/lib:/home/ely/duo_ros_ws/install/armor_tracker/lib:/home/ely/duo_ros_ws/install/armor_executor/lib:/home/ely/duo_ros_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/ely/duo_ros_ws/build/armor_executor
+[8.698s] -- Install configuration: "RelWithDebInfo"
+[8.698s] -- Execute custom install script
+[8.699s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/lib/armor_executor/armor_executor_node
+[8.714s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/include/armor_executor/SolveTrajectory.hpp
+[8.733s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/environment/library_path.sh
+[8.746s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/environment/library_path.dsv
+[8.757s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/lib/libarmor_executor.so
+[8.766s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/ament_index/resource_index/package_run_dependencies/armor_executor
+[8.776s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/ament_index/resource_index/parent_prefix_path/armor_executor
+[8.785s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/environment/ament_prefix_path.sh
+[8.796s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/environment/ament_prefix_path.dsv
+[8.810s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/environment/path.sh
+[8.829s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/environment/path.dsv
+[8.845s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/local_setup.bash
+[8.858s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/local_setup.sh
+[8.870s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/local_setup.zsh
+[8.881s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/local_setup.dsv
+[8.896s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/package.dsv
+[8.908s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/ament_index/resource_index/packages/armor_executor
+[8.922s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/ament_index/resource_index/rclcpp_components/armor_executor
+[8.935s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/cmake/ament_cmake_export_dependencies-extras.cmake
+[8.948s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/cmake/ament_cmake_export_include_directories-extras.cmake
+[8.957s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/cmake/ament_cmake_export_libraries-extras.cmake
+[8.965s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/cmake/armor_executorConfig.cmake
+[8.973s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/cmake/armor_executorConfig-version.cmake
+[8.981s] -- Symlinking: /home/ely/duo_ros_ws/install/armor_executor/share/armor_executor/package.xml
+[8.991s] Invoked command in '/home/ely/duo_ros_ws/build/armor_executor' returned '0': CMAKE_PREFIX_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces:/home/ely/duo_ros_ws/install/rm_vision_bringup:/home/ely/duo_ros_ws/install/rm_serial_driver:/home/ely/duo_ros_ws/install/rm_gimbal_description:/home/ely/duo_ros_ws/install/hik_camera:/home/ely/duo_ros_ws/install/armor_tracker:/home/ely/duo_ros_ws/install/armor_executor:/home/ely/duo_ros_ws/install/armor_detector:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces/lib:/home/ely/duo_ros_ws/install/rm_serial_driver/lib:/home/ely/duo_ros_ws/install/hik_camera/lib:/home/ely/duo_ros_ws/install/armor_tracker/lib:/home/ely/duo_ros_ws/install/armor_executor/lib:/home/ely/duo_ros_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/ely/duo_ros_ws/build/armor_executor

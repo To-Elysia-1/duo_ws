@@ -1,0 +1,86 @@
+[0.013s] Invoking command in '/home/ely/duo_ros_ws/build/rm_serial_driver': CMAKE_PREFIX_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces:/home/ely/duo_ros_ws/install/rm_vision_bringup:/home/ely/duo_ros_ws/install/rm_serial_driver:/home/ely/duo_ros_ws/install/rm_gimbal_description:/home/ely/duo_ros_ws/install/hik_camera:/home/ely/duo_ros_ws/install/armor_tracker:/home/ely/duo_ros_ws/install/armor_executor:/home/ely/duo_ros_ws/install/armor_detector:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces/lib:/home/ely/duo_ros_ws/install/rm_serial_driver/lib:/home/ely/duo_ros_ws/install/hik_camera/lib:/home/ely/duo_ros_ws/install/armor_tracker/lib:/home/ely/duo_ros_ws/install/armor_executor/lib:/home/ely/duo_ros_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /home/ely/duo_ros_ws/src/rm_serial_driver -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ely/duo_ros_ws/install/rm_serial_driver
+[0.067s] -- The C compiler identification is GNU 13.3.0
+[0.148s] -- The CXX compiler identification is GNU 13.3.0
+[0.166s] -- Detecting C compiler ABI info
+[0.264s] -- Detecting C compiler ABI info - done
+[0.277s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.278s] -- Detecting C compile features
+[0.278s] -- Detecting C compile features - done
+[0.287s] -- Detecting CXX compiler ABI info
+[0.376s] -- Detecting CXX compiler ABI info - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.384s] -- Detecting CXX compile features
+[0.384s] -- Detecting CXX compile features - done
+[0.386s] -- Found ament_cmake_auto: 2.5.3 (/opt/ros/jazzy/share/ament_cmake_auto/cmake)
+[0.545s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.628s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.811s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.832s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.852s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.877s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.960s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.962s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.029s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.055s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.077s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.217s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/jazzy/share/asio_cmake_module/cmake)
+[1.218s] -- Found ASIO: /usr/include  
+[1.393s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.420s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.420s] -- Configured cppcheck include dirs: /home/ely/duo_ros_ws/src/rm_serial_driver/include
+[1.420s] -- Configured cppcheck exclude dirs and/or files: 
+[1.425s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.425s] -- Configured cpplint exclude dirs and/or files: 
+[1.427s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.427s] -- Configured 'flake8' exclude dirs and/or files: 
+[1.429s] -- Added test 'lint_cmake' to check CMake code style
+[1.430s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.431s] -- Added test 'xmllint' to check XML markup files
+[1.437s] -- Added test 'clang_format' to check C / C++ code style
+[1.444s] -- Configuring done (1.4s)
+[1.481s] -- Generating done (0.0s)
+[1.486s] -- Build files have been written to: /home/ely/duo_ros_ws/build/rm_serial_driver
+[1.497s] Invoked command in '/home/ely/duo_ros_ws/build/rm_serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces:/home/ely/duo_ros_ws/install/rm_vision_bringup:/home/ely/duo_ros_ws/install/rm_serial_driver:/home/ely/duo_ros_ws/install/rm_gimbal_description:/home/ely/duo_ros_ws/install/hik_camera:/home/ely/duo_ros_ws/install/armor_tracker:/home/ely/duo_ros_ws/install/armor_executor:/home/ely/duo_ros_ws/install/armor_detector:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces/lib:/home/ely/duo_ros_ws/install/rm_serial_driver/lib:/home/ely/duo_ros_ws/install/hik_camera/lib:/home/ely/duo_ros_ws/install/armor_tracker/lib:/home/ely/duo_ros_ws/install/armor_executor/lib:/home/ely/duo_ros_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake /home/ely/duo_ros_ws/src/rm_serial_driver -DCMAKE_BUILD_TYPE=RelWithDebInfo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ely/duo_ros_ws/install/rm_serial_driver
+[1.498s] Invoking command in '/home/ely/duo_ros_ws/build/rm_serial_driver': CMAKE_PREFIX_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces:/home/ely/duo_ros_ws/install/rm_vision_bringup:/home/ely/duo_ros_ws/install/rm_serial_driver:/home/ely/duo_ros_ws/install/rm_gimbal_description:/home/ely/duo_ros_ws/install/hik_camera:/home/ely/duo_ros_ws/install/armor_tracker:/home/ely/duo_ros_ws/install/armor_executor:/home/ely/duo_ros_ws/install/armor_detector:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces/lib:/home/ely/duo_ros_ws/install/rm_serial_driver/lib:/home/ely/duo_ros_ws/install/hik_camera/lib:/home/ely/duo_ros_ws/install/armor_tracker/lib:/home/ely/duo_ros_ws/install/armor_executor/lib:/home/ely/duo_ros_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/ely/duo_ros_ws/build/rm_serial_driver -- -j12 -l12
+[1.553s] [ 20%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/crc.cpp.o[0m
+[1.554s] [ 40%] [32mBuilding CXX object CMakeFiles/rm_serial_driver.dir/src/rm_serial_driver.cpp.o[0m
+[1.555s] [ 60%] [32mBuilding CXX object CMakeFiles/rm_serial_driver_node.dir/rclcpp_components/node_main_rm_serial_driver_node.cpp.o[0m
+[8.418s] [ 80%] [32m[1mLinking CXX executable rm_serial_driver_node[0m
+[8.686s] [ 80%] Built target rm_serial_driver_node
+[33.392s] [100%] [32m[1mLinking CXX shared library librm_serial_driver.so[0m
+[33.748s] [100%] Built target rm_serial_driver
+[33.758s] Invoked command in '/home/ely/duo_ros_ws/build/rm_serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces:/home/ely/duo_ros_ws/install/rm_vision_bringup:/home/ely/duo_ros_ws/install/rm_serial_driver:/home/ely/duo_ros_ws/install/rm_gimbal_description:/home/ely/duo_ros_ws/install/hik_camera:/home/ely/duo_ros_ws/install/armor_tracker:/home/ely/duo_ros_ws/install/armor_executor:/home/ely/duo_ros_ws/install/armor_detector:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces/lib:/home/ely/duo_ros_ws/install/rm_serial_driver/lib:/home/ely/duo_ros_ws/install/hik_camera/lib:/home/ely/duo_ros_ws/install/armor_tracker/lib:/home/ely/duo_ros_ws/install/armor_executor/lib:/home/ely/duo_ros_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --build /home/ely/duo_ros_ws/build/rm_serial_driver -- -j12 -l12
+[33.759s] Invoking command in '/home/ely/duo_ros_ws/build/rm_serial_driver': CMAKE_PREFIX_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces:/home/ely/duo_ros_ws/install/rm_vision_bringup:/home/ely/duo_ros_ws/install/rm_serial_driver:/home/ely/duo_ros_ws/install/rm_gimbal_description:/home/ely/duo_ros_ws/install/hik_camera:/home/ely/duo_ros_ws/install/armor_tracker:/home/ely/duo_ros_ws/install/armor_executor:/home/ely/duo_ros_ws/install/armor_detector:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces/lib:/home/ely/duo_ros_ws/install/rm_serial_driver/lib:/home/ely/duo_ros_ws/install/hik_camera/lib:/home/ely/duo_ros_ws/install/armor_tracker/lib:/home/ely/duo_ros_ws/install/armor_executor/lib:/home/ely/duo_ros_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/ely/duo_ros_ws/build/rm_serial_driver
+[33.766s] -- Install configuration: "RelWithDebInfo"
+[33.766s] -- Execute custom install script
+[33.767s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/lib/rm_serial_driver/rm_serial_driver_node
+[33.775s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/include/rm_serial_driver/.vscode/c_cpp_properties.json
+[33.783s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/include/rm_serial_driver/.vscode/settings.json
+[33.791s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/include/rm_serial_driver/crc.hpp
+[33.799s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/include/rm_serial_driver/packet.hpp
+[33.809s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/include/rm_serial_driver/rm_serial_driver.hpp
+[33.820s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.sh
+[33.829s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/environment/library_path.dsv
+[33.837s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/lib/librm_serial_driver.so
+[33.845s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/config/serial_driver.yaml
+[33.853s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/launch/serial_driver.launch.py
+[33.862s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/ament_index/resource_index/package_run_dependencies/rm_serial_driver
+[33.871s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/ament_index/resource_index/parent_prefix_path/rm_serial_driver
+[33.879s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.sh
+[33.888s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/environment/ament_prefix_path.dsv
+[33.897s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/environment/path.sh
+[33.906s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/environment/path.dsv
+[33.917s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.bash
+[33.927s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.sh
+[33.935s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.zsh
+[33.943s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/local_setup.dsv
+[33.951s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/package.dsv
+[33.959s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/ament_index/resource_index/packages/rm_serial_driver
+[33.966s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/ament_index/resource_index/rclcpp_components/rm_serial_driver
+[33.974s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[33.982s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[33.990s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/ament_cmake_export_libraries-extras.cmake
+[33.998s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig.cmake
+[34.008s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/cmake/rm_serial_driverConfig-version.cmake
+[34.019s] -- Symlinking: /home/ely/duo_ros_ws/install/rm_serial_driver/share/rm_serial_driver/package.xml
+[34.030s] Invoked command in '/home/ely/duo_ros_ws/build/rm_serial_driver' returned '0': CMAKE_PREFIX_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces:/home/ely/duo_ros_ws/install/rm_vision_bringup:/home/ely/duo_ros_ws/install/rm_serial_driver:/home/ely/duo_ros_ws/install/rm_gimbal_description:/home/ely/duo_ros_ws/install/hik_camera:/home/ely/duo_ros_ws/install/armor_tracker:/home/ely/duo_ros_ws/install/armor_executor:/home/ely/duo_ros_ws/install/armor_detector:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/ely/duo_ros_ws/install/auto_aim_interfaces/lib:/home/ely/duo_ros_ws/install/rm_serial_driver/lib:/home/ely/duo_ros_ws/install/hik_camera/lib:/home/ely/duo_ros_ws/install/armor_tracker/lib:/home/ely/duo_ros_ws/install/armor_executor/lib:/home/ely/duo_ros_ws/install/armor_detector/lib:/opt/MVS/lib/64:/opt/MVS/lib/32:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib /usr/bin/cmake --install /home/ely/duo_ros_ws/build/rm_serial_driver

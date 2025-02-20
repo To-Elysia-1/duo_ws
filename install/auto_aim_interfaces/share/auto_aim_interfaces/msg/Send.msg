@@ -1,0 +1,1 @@
+/home/ely/duo_ros_ws/src/rm_auto_aim/auto_aim_interfaces/msg/Send.msg
